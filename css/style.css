@@ -1,0 +1,39 @@
+*,*::after,*::before{box-sizing: border-box;}
+.card-img-overlay{top:15rem;left: 3rem;}
+
+.navbar-nav li:hover{background-color: orange; color:white}
+
+.font-p{font-size:0.8rem;}
+.letter-space{letter-spacing: 0.1rem;}
+
+.sec1-overlap{position: relative; bottom:2.5rem;}
+.fa-trash{font-size: 2rem;}
+
+.sec4-img{background-image: url('../images/bg_3.jpg');background-size: cover;position: relative;padding:16rem;}
+
+.sec3-img span {padding:1.8rem 2rem;}
+.fa-caret-right{font-size:3rem;position:relative;top:0.7rem;left:0.2rem}
+.sec3-img .card-img-overlay{top:14rem;right:1.5rem;}
+.sec3-div{background-color: #f7f8fc}
+.section5{background-color: #f8f9fd;}
+.section7{background-color: #f8f9fd;}
+.section8{background-color: #252525;}
+.blue-bg{background-color: #064acb;}
+.blue-text{color:#064acb;}
+.orange-bg{background-color: #f79f24;}
+.section2 a{text-decoration: underline;}
+.engine{line-height: initial;}
+
+
+.section5 span{z-index:1; top:1rem; left:1rem;padding: 0.5rem 0.7rem; background-color: #f5a331;}
+
+@media (min-width:5px) and (max-width:767px){
+    .card-img-overlay{top:2rem;}
+    .fb-icon{margin-top:0.7rem;}
+    .sec1-overlap{bottom:0;}
+    .sec4-img{padding: 9rem;}
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .sec4-img{padding: 12rem;}
+}
